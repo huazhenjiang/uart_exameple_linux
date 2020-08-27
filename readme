@@ -1,0 +1,4 @@
+This is a simple uart tx and uart rx source code.
+It transmits data through /dev/ttySX as default which can help you to verify uart interface at the other platform.
+In ubuntu, it can easy to build, such like gcc -o rx115200 uart.c
+
